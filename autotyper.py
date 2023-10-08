@@ -5,6 +5,9 @@ import os
 cmd = 'color 02'     
 os.system(cmd)
 
+cmd = 'mode 65,42'
+os.system(cmd)
+
 keyboard = Controller()
 
 time.sleep(0.5)
@@ -86,6 +89,7 @@ print('   If you want to support the creator, follow these links:')
 print('   ')
 print('   Instagram: https://www.instagram.com/andrei.tho/')
 print('   YouTube: https://www.youtube.com/stra1gh7/')
+print('   TikTok: https://www.tiktok.com/@stra1gh7?lang=en/')
 print('   ')
 print('   =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=')
 time.sleep(10000)
