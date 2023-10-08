@@ -1,9 +1,13 @@
 from pynput.keyboard import Key, Controller
 import time
+import os
+
+cmd = 'color 02'     
+os.system(cmd)
 
 keyboard = Controller()
 
-time.sleep(2)
+time.sleep(0.5)
 
 print('   ')
 time.sleep(0.1)
@@ -66,7 +70,7 @@ print('   =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=')
 
 time.sleep(5)
 
-x = 1
+x = 0
 
 while (x < actions):
 
@@ -82,7 +86,6 @@ print('   If you want to support the creator, follow these links:')
 print('   ')
 print('   Instagram: https://www.instagram.com/andrei.tho/')
 print('   YouTube: https://www.youtube.com/stra1gh7/')
-print('   TikTok: https://www.tiktok.com/@stra1gh7?lang=en/')
 print('   ')
 print('   =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=')
 time.sleep(10000)
